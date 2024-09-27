@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <form>
+          <tr>
+            <td><label for="Name">Nama:</label></td>
+            <td><input type="text" id="firstName" name="firstName"></td>
+            <td><input type="text" id="lastName" name="lastName"></td>
+          </tr>
+          <tr>
+            <td><label for="phone">No Hp:</label></td>
+            <td colspan="2"><input type="tel" id="phone" name="phone" style="width: 100%;"></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td colspan="2"><input type="email" id="email" name="email" style="width: 100%;"></td>
+          </tr>
+          <tr>
+            <td><label>Gender:</label></td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Pria</label>
+            </td>
+            <td>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Perempuan</label>
+            </td>
+          </tr>
+        
+          <tr>
+          <td><label for="educationLevel">Jenjang:</label></td>
+          <td colspan="2"><select id="educationLevel" name="educationLevel">
+            <option value="tk">TK</option>
+            <option value="sd">SD</option>
+            <option value="smp">SMP</option>
+            <option value="sma">SMA</option>
+            <option value="smk">SMK</option>
+            <option value="mahasiswa">mahasiswa</option>
+          </select></td><br><br>
+          </tr>
+        
+        <tr>
+            <td><label>Hobi:</label></td>
+            <td colspan="2">
+            <input type="checkbox" id="reading" name="hobbies" value="reading">
+            <label for="reading">Membaca</label>
+            <input type="checkbox" id="drawing" name="hobbies" value="drawing">
+            <label for="drawing">Menggambar</label>
+            <input type="checkbox" id="writing" name="hobbies" value="writing">
+            <label for="writing">Menulis</label>
+            </td>
+        </tr>
+        
+        <tr>
+          <td><label for="address">Alamat:</label></td><br>
+          <td><textarea id="address" name="address"></textarea></td><br><br>
+        </tr>
+      
+        <tr>
+          <td><input type="submit" value="Kirim"></td>
+          </tr>
+      
+        </form>
+      </table>
+        
+      
+</body>
+</html>
+
